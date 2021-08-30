@@ -27,7 +27,7 @@ public class StudentManager {
         students.add(new Student("IT265841", "Sáu Võ", 2000, 9.2, "IT"));
         students.add(new Student("IT151515", "Bảy Phan", 2000, 8, "IT"));
         students.add(new Student("IS264840", "Tám Trần", 2000, 3, "IS"));
-        
+        students.add(new Student("IS481515", "Chín Hoàng", 2000, 9, "IS"));
     }
     
     public List<Student> getAllStudents(){
