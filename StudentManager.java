@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  *
- * @author xuankhang
+ * @author hoangxuankhang
  */
 public class StudentManager {
     private List<Student> students = new ArrayList<>();
