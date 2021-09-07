@@ -69,11 +69,10 @@ public class Student {
 
     @Override
     public String toString() {
-        return super.toString(); 
+        return super.toString();
     }
-    
-    public void showProfile(){
-        System.out.printf("|%-10s|%-15s|%-4d|%4.2f|%-2s|\n"
-                            ,getId(), getName(), getYob(), getGpa(), getMajor());
+
+    public void showProfile() {
+        System.out.printf("|%-10s|%-15s|%-4d|%4.2f|%-2s|\n", getId(), getName(), getYob(), getGpa(), getMajor());
     }
 }

@@ -28,22 +28,22 @@ public class StudentManager {
         students.add(new Student("IT151515", "Bảy Phan", 2000, 8, "IT"));
         students.add(new Student("IS264840", "Tám Trần", 2000, 3, "IS"));
         students.add(new Student("IT18079461", "Tran Trung Vinh", 2000, 14, "IT"));
-		students.add(new Student("SE616515", "Hoang Xuan Khang 2000, 14, "SE"));
+        students.add(new Student("IT18079461", "Tran Trung Vinh NEW", 2000, 14, "IT"));
     }
-    
-    public List<Student> getAllStudents(){
+
+    public List<Student> getAllStudents() {
         return students;
     }
-    
-    public List<Student> getStudentUsingDI(Filter<Student> filter){
+
+    public List<Student> getStudentUsingDI(Filter<Student> filter) {
         List<Student> result = new ArrayList<>();
         for (Student student : students) {
-            if(filter.check(student)){
+            if (filter.check(student)) {
                 result.add(student);
             }
         }
-        
+
         return result;
     }
-    
+
 }
