@@ -1,1 +1,0 @@
-console.log("TRan Trung Vinh");
