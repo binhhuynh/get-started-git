@@ -1,0 +1,1 @@
+console.log("Tran Trung Vinh create file dev.js");
